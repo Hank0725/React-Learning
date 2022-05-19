@@ -17,6 +17,7 @@ const Btn: React.FC<BtnProps> = ({ currentNum, onClickHandler }) => {
 
 //porps:state
 const App: React.FC = () => {
+    //陣列解構
     const [num, setNum] = useState(999)
 
     function onClickCounter() {
